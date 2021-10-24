@@ -15,7 +15,8 @@
 		68716B31271EB337002C3CFF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68716B2F271EB337002C3CFF /* LaunchScreen.storyboard */; };
 		68A944A02725A7EB00EFFCE1 /* MTScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68A9449F2725A7EB00EFFCE1 /* MTScrollView.swift */; };
 		68A944A22725A80A00EFFCE1 /* MTGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68A944A12725A80A00EFFCE1 /* MTGridView.swift */; };
-		C2C774A50107BB1DA6AC7113 /* libPods-MetalFilter.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DA884F761000B5198500E5B5 /* libPods-MetalFilter.a */; };
+		68A944A42725A92D00EFFCE1 /* PhotoEditorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68A944A32725A92D00EFFCE1 /* PhotoEditorViewController.swift */; };
+		68A944AC2725AA3000EFFCE1 /* libPods-MetalFilter.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 68A944AB2725AA3000EFFCE1 /* libPods-MetalFilter.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,11 @@
 		68716B32271EB337002C3CFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		68A9449F2725A7EB00EFFCE1 /* MTScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MTScrollView.swift; sourceTree = "<group>"; };
 		68A944A12725A80A00EFFCE1 /* MTGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MTGridView.swift; sourceTree = "<group>"; };
+		68A944A32725A92D00EFFCE1 /* PhotoEditorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoEditorViewController.swift; sourceTree = "<group>"; };
+		68A944A52725AA0A00EFFCE1 /* libPods-MetalFilter.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libPods-MetalFilter.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		68A944A72725AA1100EFFCE1 /* libPods-MetalFilter.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libPods-MetalFilter.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		68A944A92725AA1600EFFCE1 /* libMetalPetal.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libMetalPetal.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		68A944AB2725AA3000EFFCE1 /* libPods-MetalFilter.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libPods-MetalFilter.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBB7A718C49CF5C186CFA8FE /* Pods-MetalFilter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MetalFilter.debug.xcconfig"; path = "Target Support Files/Pods-MetalFilter/Pods-MetalFilter.debug.xcconfig"; sourceTree = "<group>"; };
 		CFFA5205FBAD60A0B5D946CD /* Pods-MetalFilter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MetalFilter.release.xcconfig"; path = "Target Support Files/Pods-MetalFilter/Pods-MetalFilter.release.xcconfig"; sourceTree = "<group>"; };
 		DA884F761000B5198500E5B5 /* libPods-MetalFilter.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MetalFilter.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -39,7 +45,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C2C774A50107BB1DA6AC7113 /* libPods-MetalFilter.a in Frameworks */,
+				68A944AC2725AA3000EFFCE1 /* libPods-MetalFilter.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -101,6 +107,7 @@
 			isa = PBXGroup;
 			children = (
 				68716B28271EB335002C3CFF /* MainViewController.swift */,
+				68A944A32725A92D00EFFCE1 /* PhotoEditorViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -115,6 +122,10 @@
 		7A6B90B9DCED4651CE40D70B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				68A944AB2725AA3000EFFCE1 /* libPods-MetalFilter.a */,
+				68A944A92725AA1600EFFCE1 /* libMetalPetal.a */,
+				68A944A72725AA1100EFFCE1 /* libPods-MetalFilter.a */,
+				68A944A52725AA0A00EFFCE1 /* libPods-MetalFilter.a */,
 				DA884F761000B5198500E5B5 /* libPods-MetalFilter.a */,
 			);
 			name = Frameworks;
@@ -228,6 +239,7 @@
 			files = (
 				68A944A02725A7EB00EFFCE1 /* MTScrollView.swift in Sources */,
 				68716B29271EB335002C3CFF /* MainViewController.swift in Sources */,
+				68A944A42725A92D00EFFCE1 /* PhotoEditorViewController.swift in Sources */,
 				68A944A22725A80A00EFFCE1 /* MTGridView.swift in Sources */,
 				68716B25271EB335002C3CFF /* AppDelegate.swift in Sources */,
 				68716B27271EB335002C3CFF /* SceneDelegate.swift in Sources */,
