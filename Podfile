@@ -3,4 +3,6 @@
 
 target 'MetalFilter' do
   pod 'MetalPetal'
+  # Required if you are using Swift.
+  pod 'MetalPetal/Swift'
 end
